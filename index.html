@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="style.css?v=1" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
@@ -31,12 +31,12 @@
       </a>
       <nav class="nav-links" aria-label="主選單">
         <a href="#overview">活動總覽</a>
-        <a href="#check">免費檢查</a>
-        <a href="#package">套餐優惠</a>
+        <a href="#check">免費健檢</a>
         <a href="#parts">配件優惠</a>
+        <a href="#package">空調優惠</a>
+        <a href="#carcare">車美優惠</a>
         <a href="#warranty">延長保固</a>
         <a href="#gift">滿額好禮</a>
-        <a href="#plus">PLUS 會員</a>
         <a href="#vote">微笑大使</a>
         <a href="#store">服務據點</a>
       </nav>
@@ -46,12 +46,12 @@
     </div>
     <nav class="nav-mobile" id="navMobile" aria-label="行動選單">
       <a href="#overview">活動總覽</a>
-      <a href="#check">免費檢查</a>
-      <a href="#package">套餐優惠</a>
+      <a href="#check">免費健檢</a>
       <a href="#parts">配件優惠</a>
+      <a href="#package">空調優惠</a>
+      <a href="#carcare">車美優惠</a>
       <a href="#warranty">延長保固</a>
       <a href="#gift">滿額好禮</a>
-      <a href="#plus">PLUS 會員</a>
       <a href="#vote">微笑大使</a>
       <a href="#store">服務據點</a>
     </nav>
@@ -104,7 +104,7 @@
         </a>
         <a class="card overview-card reveal" href="#package">
           <span class="ovc-icon"><svg class="ovc-ico" viewBox="0 0 512 512" fill="none" stroke="currentColor" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="320 264 230.4 376 192 331.12"/><path fill-rule="evenodd" d="M80,176a16,16,0,0,0-16,16V408c0,30.24,25.76,56,56,56H392c30.24,0,56-24.51,56-54.75V192a16,16,0,0,0-16-16Z"/><path fill-rule="evenodd" d="M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32"/></svg></span>
-          <h3>空調套餐雙重獻禮</h3>
+          <h3>空調套餐紅利兩倍送</h3>
           <p>空調清洗套餐紅利兩倍送，再享指定車美項目五折優惠。</p>
         </a>
         <a class="card overview-card reveal" href="#parts">
@@ -136,66 +136,8 @@
     </div>
   </section>
 
-  <!-- ===================== 冷氣系統優惠 ===================== -->
-  <section class="section" id="package">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">A/C SYSTEM OFFERS</span>
-        <h2>空調套餐雙重獻禮</h2>
-        <p class="section-lead">三款空調清洗套餐，紅利兩倍送，再享車內消毒／引擎室清潔五折優惠！</p>
-      </div>
-      <div class="grid grid-4">
-        <div class="card package-card reveal">
-          <div class="pkg-photo"><img src="assets/images/package-a.jpg" alt="A 套餐 空調清潔" onerror="this.closest('.pkg-photo').style.display='none'" /></div>
-          <div class="pkg-body">
-            <span class="pkg-label">A 套餐</span>
-            <ul class="pkg-list">
-              <li>空調濾網</li>
-              <li>蒸發器清洗劑</li>
-            </ul>
-            <p class="pkg-bonus">紅利點數 <strong><span class="bonus-num">2</span> 倍送</strong></p>
-          </div>
-        </div>
-        <div class="card package-card reveal">
-          <div class="pkg-photo"><img src="assets/images/package-b.jpg" alt="B 套餐 空調清潔" onerror="this.closest('.pkg-photo').style.display='none'" /></div>
-          <div class="pkg-body">
-            <span class="pkg-label">B 套餐</span>
-            <ul class="pkg-list">
-              <li>空調濾網</li>
-              <li>冷排清洗劑</li>
-            </ul>
-            <p class="pkg-bonus">紅利點數 <strong><span class="bonus-num">2</span> 倍送</strong></p>
-          </div>
-        </div>
-        <div class="card package-card reveal">
-          <div class="pkg-photo"><img src="assets/images/package-c.jpg" alt="C 套餐 空調清潔" onerror="this.closest('.pkg-photo').style.display='none'" /></div>
-          <div class="pkg-body">
-            <span class="pkg-label">C 套餐</span>
-            <ul class="pkg-list">
-              <li>空調濾網</li>
-              <li>蒸發器清洗劑</li>
-              <li>冷排清洗劑</li>
-            </ul>
-            <p class="pkg-bonus">紅利點數 <strong><span class="bonus-num">2</span> 倍送</strong></p>
-          </div>
-        </div>
-        <div class="card package-card reveal">
-          <div class="pkg-photo"><img src="assets/images/package-detail.jpg" alt="小資車美套餐" onerror="this.closest('.pkg-photo').style.display='none'" /></div>
-          <div class="pkg-body">
-            <span class="pkg-label">小資車美套餐</span>
-            <ul class="pkg-list">
-              <li>精緻打蠟</li>
-              <li>前擋玻璃鍍膜</li>
-            </ul>
-            <p class="pkg-bonus">限時 <strong><span class="bonus-num">7</span> 折優惠</strong></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ===================== 精選配件優惠 ===================== -->
-  <section class="section section-tint" id="parts">
+  <section class="section" id="parts">
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">SELECTED PARTS</span>
@@ -232,8 +174,107 @@
     </div>
   </section>
 
+  <!-- ===================== 空調套餐紅利兩倍送 ===================== -->
+  <section class="section section-tint" id="package">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">A/C SYSTEM OFFERS</span>
+        <h2>空調套餐紅利兩倍送</h2>
+        <p class="section-lead">三款空調清洗套餐，依需求自由選擇，活動期間紅利點數兩倍送，守護愛車涼爽一夏。</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card package-card reveal">
+          <div class="pkg-photo"><img src="assets/images/package-a.jpg" alt="A 套餐 空調清潔" onerror="this.closest('.pkg-photo').style.display='none'" /></div>
+          <div class="pkg-body">
+            <span class="pkg-label">A 套餐</span>
+            <ul class="pkg-list">
+              <li>空調濾網</li>
+              <li>蒸發器清洗劑</li>
+            </ul>
+            <p class="pkg-bonus">紅利點數 <strong><span class="bonus-num">2</span> 倍送</strong></p>
+          </div>
+        </div>
+        <div class="card package-card reveal">
+          <div class="pkg-photo"><img src="assets/images/package-b.jpg" alt="B 套餐 空調清潔" onerror="this.closest('.pkg-photo').style.display='none'" /></div>
+          <div class="pkg-body">
+            <span class="pkg-label">B 套餐</span>
+            <ul class="pkg-list">
+              <li>空調濾網</li>
+              <li>冷排清洗劑</li>
+            </ul>
+            <p class="pkg-bonus">紅利點數 <strong><span class="bonus-num">2</span> 倍送</strong></p>
+          </div>
+        </div>
+        <div class="card package-card reveal">
+          <div class="pkg-photo"><img src="assets/images/package-c.jpg" alt="C 套餐 空調清潔" onerror="this.closest('.pkg-photo').style.display='none'" /></div>
+          <div class="pkg-body">
+            <span class="pkg-label">C 套餐</span>
+            <ul class="pkg-list">
+              <li>空調濾網</li>
+              <li>蒸發器清洗劑</li>
+              <li>冷排清洗劑</li>
+            </ul>
+            <p class="pkg-bonus">紅利點數 <strong><span class="bonus-num">2</span> 倍送</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 夏季車美專案 ===================== -->
+  <section class="section" id="carcare">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">SUMMER CAR CARE</span>
+        <h2>夏季車美專案</h2>
+        <p class="section-lead">鏡面亮澤・深層防護，為愛車迎接夏日的每一次出遊。</p>
+      </div>
+
+      <div class="carcare-main reveal">
+        <div class="carcare-info">
+          <span class="carcare-badge">限時 7 折優惠</span>
+          <h3 class="carcare-name">夏季晶亮防護組</h3>
+          <ul class="carcare-items">
+            <li>極致手工美容上蠟</li>
+            <li>跑瓷土・去鐵粉・頂級棕梠蠟</li>
+            <li>內裝清潔皮革上蠟</li>
+            <li>前擋玻璃鍍膜</li>
+          </ul>
+        </div>
+        <div class="carcare-prices">
+          <div class="cc-price">
+            <span class="cc-tier">中型　M ／ ZS ／ HS</span>
+            <span class="cc-orig">原價 $4,600</span>
+            <span class="cc-sale">活動價 <strong>$3,200</strong></span>
+          </div>
+          <div class="cc-price">
+            <span class="cc-tier">大型　L ／ G50 PLUS</span>
+            <span class="cc-orig">原價 $6,400</span>
+            <span class="cc-sale">活動價 <strong>$4,500</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="addon-block reveal">
+        <p class="addon-title">凡購買夏季冷檢<span class="addon-ul">空調套餐</span>，或任一<span class="addon-ul">車輛美容</span>項目，即可享加購優惠</p>
+        <div class="grid grid-2 addon-grid">
+          <div class="card addon-card">
+            <span class="addon-badge">現省 $750</span>
+            <h4 class="addon-name">車內消毒</h4>
+            <p class="addon-price"><span class="cc-orig">原價 $1,500</span><span class="cc-sale">活動價 <strong>$750</strong></span></p>
+          </div>
+          <div class="card addon-card">
+            <span class="addon-badge">現省 $850</span>
+            <h4 class="addon-name">引擎室清潔</h4>
+            <p class="addon-price"><span class="cc-orig">原價 $1,700</span><span class="cc-sale">活動價 <strong>$850</strong></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ===================== 延長保固專案 ===================== -->
-  <section class="section" id="warranty">
+  <section class="section section-tint" id="warranty">
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">EXTENDED WARRANTY</span>
@@ -312,18 +353,19 @@
         <h2>PLUS 會員專屬禮遇</h2>
         <p class="section-lead plus-lead">升級 PLUS，享有更多專屬回饋</p>
       </div>
-      <div class="grid grid-2 plus-grid">
-        <ul class="plus-benefits reveal">
-          <li><span class="pb-mark">&#9670;</span>PLUS 會員滿額贈禮門檻更低</li>
-          <li><span class="pb-mark">&#9670;</span>不定期會員活動優惠</li>
-          <li><span class="pb-mark">&#9670;</span>回廠禮遇加碼</li>
-          <li><span class="pb-mark">&#9670;</span>專屬會員資訊通知</li>
-        </ul>
-        <div class="plus-cta-box reveal">
-          <p class="plus-note">升級 PLUS 會員，即可享有專屬禮遇及不定期加碼活動，歡迎洽詢了解會員資格。</p>
-          <a href="#" id="plusBtn" class="btn btn-gold" data-track="plus_click" target="_blank" rel="noopener">洽詢 PLUS 會員資格</a>
-        </div>
+
+      <div class="plus-upgrade reveal">
+        <span class="plus-upgrade-tag">最簡單的升級方式</span>
+        <p class="plus-upgrade-text">透過 <strong>銘勁</strong> 投保車體險，<br class="pu-br" />即可升等為 <strong>PLUS 會員</strong>！</p>
+        <p class="plus-upgrade-contact">歡迎洽詢您的銷售顧問或服務廠人員</p>
       </div>
+
+      <ul class="plus-benefits plus-benefits-center reveal">
+        <li><span class="pb-mark">&#9670;</span>PLUS 會員滿額贈禮門檻更低</li>
+        <li><span class="pb-mark">&#9670;</span>不定期會員活動優惠</li>
+        <li><span class="pb-mark">&#9670;</span>回廠禮遇加碼</li>
+        <li><span class="pb-mark">&#9670;</span>專屬會員資訊通知</li>
+      </ul>
     </div>
   </section>
 
@@ -414,6 +456,11 @@
     <a href="#vote" class="scta-btn scta-vote" data-track="vote_click">投票抽獎</a>
   </div>
 
-  <script src="script.js?v=1"></script>
+  <!-- 回到頂端 -->
+  <button class="to-top" id="toTop" aria-label="回到頁面頂端" title="回到頂端">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="script.js?v=2"></script>
 </body>
 </html>
